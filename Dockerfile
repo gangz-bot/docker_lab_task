@@ -5,7 +5,7 @@ RUN apt install python3 python3-pip pipenv -y
 
 WORKDIR /app
 COPY . /app/
-RUN pipenv install -r requirements.txt
+RUN pipenv install --deploy --system
 
 EXPOSE 80
 
