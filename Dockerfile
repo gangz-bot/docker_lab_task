@@ -10,4 +10,5 @@ RUN pipenv install -r requirements.txt
 EXPOSE 80
 
 
-CMD pipenv run python3 https://upessocs.github.io/Lectures/DevOps%20Lab%20FullStack/main.py
+CMD pipenv run python3 main.py
+
